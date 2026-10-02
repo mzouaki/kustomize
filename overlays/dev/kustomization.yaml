@@ -3,9 +3,6 @@ namespace: tp7-kustomize
   # On garde `images:` pour piloter le tag depuis l'overlay (démonstration rollout)
   # Ici on ne change pas le repository, seulement la version (newTag)
 images:
-- name: ghcr.io/mzouaki/spring-petclinic
-  newName: ghcr.io/mzouaki/spring-petclinic
-  newTag: 4.0.1
 - name: spring-petclinic
   newName: ghcr.io/mzouaki/spring-petclinic
   newTag: e932d9b1207b57b2d33519121e42357d55f82542
