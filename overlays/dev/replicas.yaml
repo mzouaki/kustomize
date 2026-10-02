@@ -1,4 +1,4 @@
----
+# Alternative : raccourci Kustomize (plus simple, pas besoin de JSON Patch)
 replicas:
   - name: clinic-deploy
-    count: 2
+    count: 3
