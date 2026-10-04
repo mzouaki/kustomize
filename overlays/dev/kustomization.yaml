@@ -5,7 +5,7 @@ namespace: tp7-kustomize
 images:
 - name: spring-petclinic
   newName: ghcr.io/mzouaki/spring-petclinic
-  newTag: 4864472ec3b3901c15ac114848fd18c304e08048
+  newTag: 1f5c8ddf99e8523dc799988734f81426af4aecb8
 
 # Référencer la baseline (réutiliser tous les manifests de base/)
 resources:
